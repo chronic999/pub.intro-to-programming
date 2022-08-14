@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Absolute Positioning</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        /* correctly position elements */
+        /* position: relative; */
+      }
+      .container {
+        width: 800px;
+        margin: 0 auto;
+      }
+      @media (max-width: 800px) {
+        .container {
+          width: 500px;
+        }
+      }
+      /* absolute position */
+      button {
+        font-size: 22px;
+        padding: 10px;
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 50px;
+        overflow: hidden;
+      }
+      /* absolute position */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sample text</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore non,
+        accusantium nobis optio obcaecati incidunt voluptatum! Modi accusantium
+        aspernatur aliquam voluptatibus laudantium assumenda officia sunt, a
+        soluta autem pariatur. Debitis.
+      </p>
+    </div>
+    <button>❤️Like</button>
+  </body>
+</html>

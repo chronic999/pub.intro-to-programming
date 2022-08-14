@@ -1,0 +1,169 @@
+/* color pallet https://colorhunt.co/palette/f9f2ed3ab0ffffb562f87474 */
+
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #3f3f46;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 10px;
+  height: 32px;
+  background-color: #27272a;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  float: right;
+}
+
+nav li {
+  float: left;
+}
+
+.list-item {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #f9f2ed;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.brand {
+  position: absolute;
+  left: 6px;
+  padding: 6px;
+  text-decoration: none;
+  color: #f9f2ed;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 80vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  z-index: -2;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  margin: -20px 0 5px;
+  font-family: "Nothing You Could Do";
+}
+
+.hero p {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+
+.content h1 {
+  font-size: 300%;
+}
+.content h2,
+.content h3 {
+  font-size: 150%;
+  margin: 20px 0;
+}
+
+.content p {
+  color: #555;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin: 30px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.contact-me h2 {
+  padding: 5px;
+  font-size: 3rem;
+}
+
+.cta {
+  margin: 20px auto 50px;
+}
+.btn {
+  background: #ffb562;
+  background-image: -webkit-linear-gradient(top, #ffb562, #f87474);
+  background-image: -moz-linear-gradient(top, #ffb562, #f87474);
+  background-image: -ms-linear-gradient(top, #ffb562, #f87474);
+  background-image: -o-linear-gradient(top, #ffb562, #f87474);
+  background-image: linear-gradient(to bottom, #ffb562, #f87474);
+  -webkit-border-radius: 24;
+  -moz-border-radius: 24;
+  border-radius: 24px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3ab0ff;
+  background-image: -webkit-linear-gradient(top, #3ab0ff, #3ab0ff);
+  background-image: -moz-linear-gradient(top, #3ab0ff, #3ab0ff);
+  background-image: -ms-linear-gradient(top, #3ab0ff, #3ab0ff);
+  background-image: -o-linear-gradient(top, #3ab0ff, #3ab0ff);
+  background-image: linear-gradient(to bottom, #3ab0ff, #3ab0ff);
+  text-decoration: none;
+}
+
+.end {
+  background-color: #27272a;
+  margin: 0;
+  padding: 20px;
+  bottom: 0px;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 20px;
+}
+
+.end p {
+  font-size: 16px;
+  margin: 20px auto;
+  color: #71717a;
+}
