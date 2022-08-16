@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/b509e6afb8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>TinDev</title>
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="./index.html">tindev</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html#cta">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Meet New People Today</h1>
+            <button type="button" class="btn btn-dark btn-lg dl-button">
+              <i class="fa-brands fa-apple"></i> Download
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-light btn-lg dl-button"
+            >
+              <i class="fa-brands fa-google-play"></i> Download
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="title-img"
+              src="images/iPhone.webp"
+              alt="iphone-mockup"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Supported platforms -->
+    <section id="features">
+      <div class="container-fluid text-center">
+        <h2 class="p-2">Supported Platforms and Devices</h2>
+        <p class="platform">
+          Tindev is currently available on
+          <span style="font-weight: 600; color: black">iOS, Android</span>, and
+          <span style="font-weight: 600; color: black">HMS</span> devices. Along
+          with our mobile apps, you can visit
+          <span style="font-weight: 600; color: black">Tindev.com</span> to use
+          Tindev for web. <br /><br />
+
+          We also offer a lightweight version of Tindev you can take anywhere
+          and everywhere - download Tindev Lite from the
+          <span style="font-weight: 600; color: black">Google Play store</span
+          >.<br /><br />
+
+          Tindev currently supports iOS 13.0 and up, Android 7.0 and up, and the
+          latest versions of all major web browsers (Chrome, Firefox, Safari,
+          Edge, etc.).
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form">
+      <div class="container">
+        <h2 class="p-2 text-center">Having issues?</h2>
+        <div class="col p-4 pb-12 align-items-center rounded-3 border max-w-xl">
+          <form
+            class="needs-validation"
+            action="mailto:you@you.com"
+            method="post"
+            enctype="text/plain"
+            novalidate
+          >
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">First name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Name"
+                  placeholder="Your name"
+                  name="Name: "
+                  required
+                />
+                <div class="invalid-feedback">Valid name is required.</div>
+              </div>
+
+              <div class="col-6">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="Email"
+                  placeholder="you@example.com"
+                  name="Email: "
+                  required
+                />
+                <div class="invalid-feedback">Please enter a valid email.</div>
+              </div>
+            </div>
+
+            <div class="col-12 mt-2">
+              <label for="message" class="form-label">Your Message:</label>
+              <textarea
+                class="form-control"
+                id="Message"
+                placeholder="Your message"
+                name="Your message: "
+                rows="10"
+                cols="30"
+                required
+              ></textarea>
+              <div class="invalid-feedback">Please enter a message.</div>
+            </div>
+            <button class="mt-4 w-100 btn btn-dark btn-lg" type="submit">
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="cta">
+      <div class="container-flex text-center">
+        <div class="row">
+          <div class="col">
+            <h3>Find the True Love of Your Life Today.</h3>
+            <button type="button" class="btn btn-dark btn-lg dl-button">
+              <i class="fa-brands fa-apple"></i> Download
+            </button>
+            <button type="button" class="btn btn-light btn-lg dl-button">
+              <i class="fa-brands fa-google-play"></i> Download
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="container-flex text-center">
+      <footer id="footer">
+        <div class="row">
+          <div class="col">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
+          </div>
+        </div>
+        <a href="./index.html">© Copyright 2022 TinDev</a>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/scripts/form-validation.js"></script>
+  </body>
+</html>

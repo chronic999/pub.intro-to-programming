@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/b509e6afb8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>TinDev</title>
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="./index.html">tindev</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Meet new and interesting developers nearby.</h1>
+            <button type="button" class="btn btn-dark btn-lg dl-button">
+              <i class="fa-brands fa-apple"></i> Download
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-light btn-lg dl-button"
+            >
+              <i class="fa-brands fa-google-play"></i> Download
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="title-img"
+              src="images/iPhone.webp"
+              alt="iphone-mockup"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <!-- TODO: 1 -->
+    <section id="features">
+      <div class="container-fluid text-center">
+        <div class="row">
+          <div class="col-lg-4 p-2">
+            <i class="fa-solid fa-circle-check"></i>
+            <h3>Easy to use.</h3>
+            <p>So easy to use, even your dog could do it.</p>
+          </div>
+          <div class="col-lg-4 p-2">
+            <i class="fa-solid fa-bullseye"></i>
+            <h3>Elite Clientele</h3>
+            <p>We have all the developers, the greatest developers.</p>
+          </div>
+
+          <div class="col-lg-4 p-2">
+            <i class="fa-solid fa-heart"></i>
+            <h3>Guaranteed to work.</h3>
+            <p>Find the love of your life or your money back.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <!-- TODO: 2 -->
+    <section id="testimonials">
+      <!-- TODO: 4 -->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+              I no longer have to search other repos for love. I've found the hottest developer
+            </h2>
+            <img src="https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" class="circular--landscape" alt="...">
+            <em>Jessie, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h2>
+              I used to be so lonely, but with TinDev's help, I've found the love of my life. I think.
+            </h2>
+            <img src="https://images.unsplash.com/photo-1486302913014-862923f5fd48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" class="circular--landscape" alt="...">
+            <em>Beverly, Illinois</em>
+          </div>
+          <div class="carousel-item">
+            <h2>I once won a regional hot dog eating competition. I have a secret food blog.
+            </h2>
+            <img src="https://images.unsplash.com/photo-1625055671570-e5de97e4897d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" class="circular--landscape" alt="...">
+            <em>Jason, New York</em>
+          </div>
+        </div>
+    </section>
+
+    <!-- Press -->
+    <!-- TODO: 3 -->
+    <section id="press">
+      <img src="images/techcrunch.png" alt="tc-logo" />
+      <img src="images/tnw.png" alt="tnw-logo" />
+      <img src="images/bizinsider.png" alt="biz-insider-logo" />
+      <img src="images/mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- TODO: 5 -->
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <div class="container-flex text-center">
+        <h2 class="pricing-title">A Plan for Every Developer's Needs</h2>
+        <p class="pricing-text">Simple and affordable price plans for you.</p>
+     
+      <div class="row">
+        <div class="col-lg-4 p-2">
+          <div class="card">
+            <div class="card-header">Beginner</div>
+            <div class="card-body">
+              <h3>Free</h3>
+              <p>5 Matches Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-lg btn-dark" type="button">Sign Up</button>
+              </div>
+              </div>
+            </div>
+        </div>
+          
+  <div class="col-lg-4 p-2">
+    <div class="card">
+        <div class="card-header">Advanced</div>
+          <div class="card-body">
+            <h3>$49 / mo</h3>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-lg btn-dark" type="button">Sign Up</button>
+            </div>
+          </div>
+      </div>
+    </div>
+            
+        <div class="col-lg-4 p-2">
+          <div class="card">
+            <div class="card-header">Expert</div>
+            <div class="card-body">
+              <h3>$99 / mo</h3>
+              <p>All from Advanced +</p>
+              <p>Priority Listing</p>
+              <p>Custom Logo</p>
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-lg btn-dark" type="button">Sign Up</button>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TODO: 6 -->
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <div class="container-flex text-center">
+      <div class="row">
+        <div class="col">
+          <h3>Find the True Love of Your Life Today.</h3>
+          <button type="button" class="btn btn-dark btn-lg dl-button">
+            <i class="fa-brands fa-apple"></i> Download
+          </button>
+          <button
+            type="button"
+            class="btn btn-light btn-lg dl-button"
+          >
+            <i class="fa-brands fa-google-play"></i> Download
+          </button>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- TODO: 7 -->
+    <!-- Footer -->
+<div class="container-flex text-center">
+  <footer id="footer">
+  <div class="row">
+    <div class="col">
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
+    </div>
+  </div>
+
+    <a href="./index.html">© Copyright 2022 TinDev</a>
+  </footer>
+</div>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

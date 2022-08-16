@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  /* background-color: #0ea5e9; */
+  background-image: linear-gradient(45deg, #06b6d4, #3b82f6);
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+/* Download Buttons */
+.dl-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Title Image */
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  margin: 10px 100px 20px;
+  overflow: hidden;
+}
+
+/* TODO: 1 */
+/* Features Section*/
+
+#features h3 {
+  padding-top: 20px;
+  font-weight: 700;
+}
+
+#features p {
+  color: #71717a;
+}
+
+#features i {
+  font-size: 3rem;
+  color: #0ea5e9;
+}
+
+#features i:hover {
+  color: #0369a1;
+}
+
+/* TODO: 2 */
+/* Testimonials Section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #0ea5e9;
+}
+
+#testimonials h2 {
+  font-size: 2.5rem;
+  /* line-height: 1.5; */
+  font-weight: bold;
+}
+
+#testimonials h2,
+em {
+  color: #fff;
+}
+
+#testimonials img {
+  margin: 20px;
+}
+
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+/* Press Section */
+/* TODO: 3 */
+
+#press {
+  background-color: #0ea5e9;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#press img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* TODO: 4 Testimonials Carousel*/
+/* No styles required */
+
+/* TODO: 5 */
+/* Pricing Section */
+
+#pricing {
+  margin: 40px;
+}
+
+#pricing h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.pricing-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.pricing-text {
+  font-size: 1rem;
+  color: #71717a;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card-body p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/* TODO: 6 */
+/* CTA Section */
+#cta {
+  /* background-color: #0ea5e9; */
+  background-image: linear-gradient(45deg, #06b6d4, #3b82f6);
+  padding: 10%;
+}
+
+#cta h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+/* TODO 7 Footer Section */
+#footer {
+  padding: 2%;
+  font-size: 15px;
+  color: #71717a;
+}
+
+#footer a {
+  padding: 2%;
+  font-size: 15px;
+  color: #71717a;
+  text-decoration: none;
+}
+
+#footer i {
+  padding: 2%;
+  margin: 4px;
+  color: black;
+  font-size: 1.5rem;
+}
+
+#footer i:hover {
+  color: #71717a;
+}
+
+/* Contact page */
+
+.contact-form {
+  margin: 40px;
+}
+.platform {
+  text-align: left;
+  font-size: 1.2rem;
+}
